@@ -42,7 +42,7 @@ My latest resume is available through the portfolio website via the Resume butto
 
 ## Resume
 
-[View Resume](./public/GurukiranReddyKasireddy_Resume.pdf)
+[View Resume](./public/resume.pdf)
 
 
 ## Getting Started
