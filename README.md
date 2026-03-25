@@ -1,65 +1,50 @@
-# My Portfolio Website - Overview 🚀
+# Gurukiran Reddy Kasireddy Portfolio
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+A modern interactive developer portfolio built with React, TypeScript, GSAP, Three.js, and WebGL. This portfolio highlights my experience in backend engineering, cloud-native systems, distributed applications, and scalable software development.
 
----
+## About
 
-## ⚠️ Usage Notice
+This portfolio was customized to represent my background as a Software Engineer with experience building backend services, APIs, data pipelines, and cloud-native applications across healthcare and enterprise environments.
 
-This project is shared for learning purposes only.
+It showcases my:
+- professional summary
+- career experience
+- technical stack
+- work highlights
+- contact information
+- resume
 
-Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
+## Tech Stack
 
-If you use parts of the code, you must provide proper credit linking back to the original repository.
+- React
+- TypeScript
+- GSAP
+- Three.js
+- WebGL
+- HTML
+- CSS
+- JavaScript
 
-Build your own version — don’t just copy.
+## Features
 
-— Moncy Yohannan
+- Interactive landing page
+- Custom animated UI
+- 3D visual elements with Three.js
+- Responsive sections for about, experience, work, and contact
+- Resume download support
+- Social and professional links
 
----
+## Resume
 
-## 🛠️ Instructions
+My latest resume is available through the portfolio website via the Resume button.
 
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
+[View Resume](./public/resume.pdf)
 
-For official GSAP Club plugins, refer here:  
-https://gsap.com/docs/v3/Installation/
+## Getting Started
 
----
+Clone the repository and install dependencies:
 
-## ⚙️ Tech Stack
-
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
-
----
-
-## 🎨 Assets Usage
-
-Some 3D assets included in this repository are free to use for learning purposes.
-
-However:
-
-- The original 3D avatar used on my live portfolio is NOT included in this repository
-- That avatar is a custom asset created over ~1 month
-- It is not open source and not available for reuse
-
-Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
-
----
-
-![Protfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
-
----
-
-## 📄 License
-
-This project is licensed under the Personal Portfolio License (PPL) v1.0.
-
-See the LICENSE file for full details
-
+```bash
+git clone https://github.com/AstaReddy/portfolio-website.git
+cd portfolio-website
+npm install
