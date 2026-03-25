@@ -65,11 +65,9 @@ const Loading = ({ percent }: { percent: number }) => {
             <span> Backend Engineer</span>
             <span>Cloud-Native Developer</span>
             <span> Distributed Systems</span>
-            <span>API Engineering</span>
             <span> Backend Engineer</span>
             <span>Cloud-Native Developer</span>
             <span> Distributed Systems</span>
-            <span>API Engineering</span>
           </Marquee>
         </div>
 

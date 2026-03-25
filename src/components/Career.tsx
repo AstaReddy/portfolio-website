@@ -13,19 +13,23 @@ const Career = () => {
             <div className="career-dot"></div>
           </div>
 
+          
+
+          
+
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Software Developer</h4>
-                <h5>CitiusTech Inc</h5>
+                <h5>UnitedHealth Group</h5>
               </div>
-              <h3>2021 - 2023</h3>
+              <h3>2025 - NOW</h3>
             </div>
             <p>
-              Built scalable backend services using Django, Flask, and Node.js,
-              developed REST and GraphQL APIs, and supported cloud-native
-              deployments on AWS with Docker, ECS, and CI/CD pipelines for
-              enterprise applications.
+              Developing high-scale backend services in Golang and Python for
+              healthcare systems, building AWS-based microservices, optimizing
+              large-scale data pipelines, and delivering secure APIs that power
+              real-time analytics and operational workflows.
             </p>
           </div>
 
@@ -49,17 +53,23 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Software Developer</h4>
-                <h5>UnitedHealth Group</h5>
+                <h5>CitiusTech Inc</h5>
               </div>
-              <h3>2025 - NOW</h3>
+              <h3>2021 - 2023</h3>
             </div>
             <p>
-              Developing high-scale backend services in Golang and Python for
-              healthcare systems, building AWS-based microservices, optimizing
-              large-scale data pipelines, and delivering secure APIs that power
-              real-time analytics and operational workflows.
+              Built scalable backend services using Django, Flask, and Node.js,
+              developed REST and GraphQL APIs, and supported cloud-native
+              deployments on AWS with Docker, ECS, and CI/CD pipelines for
+              enterprise applications.
             </p>
           </div>
+
+
+
+
+
+
         </div>
       </div>
     </div>
