@@ -92,8 +92,7 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>BACKEND</h3>
-              <h4>Description</h4>
+              <h3>BACKEND DEVELOPER</h3>
               <p>
                 I build scalable backend systems with a strong focus on API
                 design, microservices, distributed architectures, and
@@ -138,8 +137,7 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>CLOUD & DATA</h3>
-              <h4>Description</h4>
+              <h3>CLOUD & DATA ENGINEER</h3>
               <p>
                 I work on cloud-native systems and large-scale data workflows
                 using AWS, containerized services, and data processing tools. My
@@ -147,7 +145,6 @@ const WhatIDo = () => {
                 driven platforms, and delivering scalable infrastructure for
                 secure, high-availability applications.
               </p>
-              <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">AWS</div>
                 <div className="what-tags">Docker</div>
