@@ -38,7 +38,10 @@ It showcases my:
 
 My latest resume is available through the portfolio website via the Resume button.
 
-[View Resume](./public/resume.pdf)
+## Resume
+
+[View Resume](https://github.com/AstaReddy/portfolio-website/blob/main/public/resume.pdf)
+
 
 ## Getting Started
 
