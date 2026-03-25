@@ -40,7 +40,7 @@ My latest resume is available through the portfolio website via the Resume butto
 
 ## Resume
 
-[View Resume](https://github.com/AstaReddy/portfolio-website/blob/main/public/resume.pdf)
+[View Resume](https://github.com/AstaReddy/portfolio-website/main/public/resume.pdf)
 
 
 ## Getting Started
