@@ -45,6 +45,13 @@
   font-size: 14px;
   letter-spacing: 0.2px;
 }
+.navbar-title img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+  }
 @media only screen and (min-width: 500px) {
   .header {
     padding: 20px 0px;
@@ -80,4 +87,5 @@
   .navbar-title {
     font-size: 18px;
   }
+  
 }

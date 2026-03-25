@@ -7,6 +7,7 @@ const WhatIDo = () => {
   const setRef = (el: HTMLDivElement | null, index: number) => {
     containerRef.current[index] = el;
   };
+
   useEffect(() => {
     if (ScrollTrigger.isTouch) {
       containerRef.current.forEach((container) => {
@@ -16,6 +17,7 @@ const WhatIDo = () => {
         }
       });
     }
+
     return () => {
       containerRef.current.forEach((container) => {
         if (container) {
@@ -24,6 +26,7 @@ const WhatIDo = () => {
       });
     };
   }, []);
+
   return (
     <div className="whatIDO">
       <div className="what-box">
@@ -34,6 +37,7 @@ const WhatIDo = () => {
           </div>
         </h2>
       </div>
+
       <div className="what-box">
         <div className="what-box-in">
           <div className="what-border2">
@@ -58,6 +62,7 @@ const WhatIDo = () => {
               />
             </svg>
           </div>
+
           <div
             className="what-content what-noTouch"
             ref={(el) => setRef(el, 0)}
@@ -87,28 +92,33 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
+              <h3>BACKEND</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                I build scalable backend systems with a strong focus on API
+                design, microservices, distributed architectures, and
+                production-grade reliability. My experience includes building
+                high-throughput services, optimizing query performance, and
+                supporting enterprise applications across healthcare and data
+                driven platforms.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
+                <div className="what-tags">Go</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">Java</div>
                 <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
+                <div className="what-tags">Django</div>
+                <div className="what-tags">Flask</div>
                 <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">REST APIs</div>
+                <div className="what-tags">GraphQL</div>
+                <div className="what-tags">PostgreSQL</div>
               </div>
               <div className="what-arrow"></div>
             </div>
           </div>
+
           <div
             className="what-content what-noTouch"
             ref={(el) => setRef(el, 1)}
@@ -128,22 +138,27 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
+              <h3>CLOUD & DATA</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                I work on cloud-native systems and large-scale data workflows
+                using AWS, containerized services, and data processing tools. My
+                background includes building ETL pipelines, supporting analytics
+                driven platforms, and delivering scalable infrastructure for
+                secure, high-availability applications.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">AWS</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">ECS</div>
+                <div className="what-tags">Lambda</div>
+                <div className="what-tags">PySpark</div>
+                <div className="what-tags">Pandas</div>
+                <div className="what-tags">NumPy</div>
+                <div className="what-tags">ETL</div>
+                <div className="what-tags">MongoDB</div>
+                <div className="what-tags">Cassandra</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -159,6 +174,7 @@ export default WhatIDo;
 function handleClick(container: HTMLDivElement) {
   container.classList.toggle("what-content-active");
   container.classList.remove("what-sibling");
+
   if (container.parentElement) {
     const siblings = Array.from(container.parentElement.children);
 

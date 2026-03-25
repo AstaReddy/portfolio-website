@@ -6,9 +6,14 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          I am a Software Engineer with 3 years of experience building scalable
+          backend services, distributed systems, and cloud-native applications.
+          My work spans healthcare and enterprise platforms, with a strong focus
+          on designing reliable APIs, optimizing data-intensive workflows, and
+          delivering production-ready systems on AWS. I enjoy solving complex
+          engineering problems across backend architecture, data processing, and
+          full-stack integrations that improve performance, automation, and
+          user-facing impact.
         </p>
       </div>
     </div>

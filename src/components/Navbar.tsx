@@ -2,55 +2,62 @@ import { useEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
-import { ScrollSmoother } from "gsap-trial/ScrollSmoother";
 import "./styles/Navbar.css";
 
-gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
-export let smoother: ScrollSmoother;
+gsap.registerPlugin(ScrollTrigger);
 
 const Navbar = () => {
   useEffect(() => {
-    smoother = ScrollSmoother.create({
-      wrapper: "#smooth-wrapper",
-      content: "#smooth-content",
-      smooth: 1.7,
-      speed: 1.7,
-      effects: true,
-      autoResize: true,
-      ignoreMobileResize: true,
-    });
+    window.scrollTo(0, 0);
 
-    smoother.scrollTop(0);
-    smoother.paused(true);
+    const links = document.querySelectorAll(".header ul a");
+    const handleClick = (e: Event) => {
+      if (window.innerWidth > 1024) {
+        e.preventDefault();
 
-    let links = document.querySelectorAll(".header ul a");
+        const target = e.currentTarget as HTMLAnchorElement;
+        const section = target.getAttribute("data-href");
+
+        if (!section) return;
+
+        document.querySelector(section)?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
+    };
+
     links.forEach((elem) => {
-      let element = elem as HTMLAnchorElement;
-      element.addEventListener("click", (e) => {
-        if (window.innerWidth > 1024) {
-          e.preventDefault();
-          let elem = e.currentTarget as HTMLAnchorElement;
-          let section = elem.getAttribute("data-href");
-          smoother.scrollTo(section, true, "top top");
-        }
+      elem.addEventListener("click", handleClick);
+    });
+
+    const handleResize = () => {
+      ScrollTrigger.refresh();
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      links.forEach((elem) => {
+        elem.removeEventListener("click", handleClick);
       });
-    });
-    window.addEventListener("resize", () => {
-      ScrollSmoother.refresh(true);
-    });
+
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
+
   return (
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          Logo
+          <img src="/images/ProfilePicture.JPG" alt="Gurukiran logo" />
         </a>
         <a
-          href="mailto:example@mail.com"
+          href="mailto:reddykasireddy714@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          example@mail.com
+          reddykasireddy714@gmail.com
         </a>
         <ul>
           <li>
