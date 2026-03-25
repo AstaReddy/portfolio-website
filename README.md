@@ -40,7 +40,9 @@ My latest resume is available through the portfolio website via the Resume butto
 
 ## Resume
 
-[View Resume](https://github.com/AstaReddy/portfolio-website/main/public/resume.pdf)
+## Resume
+
+[View Resume](./public/GurukiranReddyKasireddy_Resume.pdf)
 
 
 ## Getting Started
