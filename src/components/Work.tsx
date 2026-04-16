@@ -26,28 +26,28 @@ const workItems = [
     title: "Predictive Risk Stratification",
     category: "Healthcare ML",
     tools: "XGBoost, Deep Learning, Claims Data, EHR",
-    image: "/images/PredictiveRiskStratification.webp",
+    image: "/images/PredictiveRiskStratification.png",
   },
   {
     id: "04",
     title: "Distributed MLOps Pipelines",
     category: "Production AI Systems",
     tools: "PySpark, SQL, Apache Airflow, AWS",
-    image: "/images/Distributed MLOps Pipelines.webp",
+    image: "/images/Distributed MLOps Pipelines.jpg",
   },
   {
     id: "05",
     title: "Clinical Risk & Outcome Models",
     category: "CitiusTech Inc",
     tools: "XGBoost, Logistic Regression, Clinical Analytics",
-    image: "/images/ClinicalRisk&OutcomeModels.webp",
+    image: "/images/ClinicalRisk&OutcomeModels.png",
   },
   {
     id: "06",
     title: "FHIR/HL7 Data Pipelines",
     category: "Machine Learning Engineer",
     tools: "FHIR, HL7, SageMaker, MLflow, AWS",
-    image: "/images/FHIR-HL7DataPipelines.webp",
+    image: "/images/FHIR-HL7DataPipelines.png",
   },
 ];
 
