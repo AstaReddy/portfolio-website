@@ -49,7 +49,7 @@ const Contact = () => {
 
           <div className="contact-box">
             <h2>
-              Let&apos;s build reliable, scalable <br /> software together.
+              Let&apos;s build intelligent, scalable <br /> software together.
             </h2>
             <h5>
               <MdCopyright /> 2026 Gurukiran Reddy Kasireddy

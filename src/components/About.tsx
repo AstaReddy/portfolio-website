@@ -6,14 +6,13 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I am a Software Engineer with 3 years of experience building scalable
-          backend services, distributed systems, and cloud-native applications.
-          My work spans healthcare and enterprise platforms, with a strong focus
-          on designing reliable APIs, optimizing data-intensive workflows, and
-          delivering production-ready systems on AWS. I enjoy solving complex
-          engineering problems across backend architecture, data processing, and
-          full-stack integrations that improve performance, automation, and
-          user-facing impact.
+          I am an AI Engineer with a strong software engineering foundation in
+          backend systems, cloud-native applications, and large-scale data
+          workflows. My experience spans intelligent automation, API design,
+          production-ready services, and analytics-driven platforms, with a
+          focus on building reliable systems that translate machine intelligence
+          into practical business impact. I enjoy solving engineering problems
+          where AI, backend architecture, and scalable infrastructure meet.
         </p>
       </div>
     </div>

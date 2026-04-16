@@ -1,18 +1,10 @@
 # Gurukiran Reddy Kasireddy Portfolio
 
-A modern interactive developer portfolio built with React, TypeScript, GSAP, Three.js, and WebGL. This portfolio highlights my experience in backend engineering, cloud-native systems, distributed applications, and scalable software development.
+An interactive portfolio built with React, TypeScript, GSAP, Three.js, and WebGL to showcase my work as an AI Engineer focused on intelligent systems, backend architecture, cloud-native applications, and scalable software delivery.
 
 ## About
 
-This portfolio was customized to represent my background as a Software Engineer with experience building backend services, APIs, data pipelines, and cloud-native applications across healthcare and enterprise environments.
-
-It showcases my:
-- professional summary
-- career experience
-- technical stack
-- work highlights
-- contact information
-- resume
+This site highlights my experience across AI-enabled products, backend services, distributed systems, data-intensive workflows, and cloud infrastructure. It provides a concise overview of my background, technical strengths, work highlights, and resume.
 
 ## Tech Stack
 
@@ -27,23 +19,16 @@ It showcases my:
 
 ## Features
 
-- Interactive landing page
-- Custom animated UI
-- 3D visual elements with Three.js
-- Responsive sections for about, experience, work, and contact
-- Resume download support
-- Social and professional links
+- Interactive landing page with custom motion
+- 3D visuals powered by Three.js
+- Sections for about, experience, work, and contact
+- Resume access from both the website and repository
+- Responsive layout for desktop and mobile
 
 ## Resume
 
-My latest resume is available through the portfolio website via the Resume button.
-
-## Resume
-
-## Resume
-
-[View Resume](./public/resume.pdf)
-
+- Website: available via the Resume button on the live portfolio
+- GitHub: [View Resume](https://raw.githubusercontent.com/AstaReddy/portfolio-website/main/public/resume.pdf)
 
 ## Getting Started
 
@@ -53,3 +38,16 @@ Clone the repository and install dependencies:
 git clone https://github.com/AstaReddy/portfolio-website.git
 cd portfolio-website
 npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```

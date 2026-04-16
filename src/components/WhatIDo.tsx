@@ -92,27 +92,26 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>BACKEND DEVELOPER</h3>
+              <h3>AI SYSTEMS</h3>
               <p>
-                I build scalable backend systems with a strong focus on API
-                design, microservices, distributed architectures, and
-                production-grade reliability. My experience includes building
-                high-throughput services, optimizing query performance, and
-                supporting enterprise applications across healthcare and data
-                driven platforms.
+                I build intelligent applications that combine software
+                engineering discipline with data-driven automation. My work
+                focuses on turning AI-enabled ideas into reliable systems
+                through clean APIs, scalable services, and production-ready
+                implementation.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Go</div>
                 <div className="what-tags">Python</div>
                 <div className="what-tags">Java</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Django</div>
-                <div className="what-tags">Flask</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">REST APIs</div>
-                <div className="what-tags">GraphQL</div>
-                <div className="what-tags">PostgreSQL</div>
+                <div className="what-tags">PySpark</div>
+                <div className="what-tags">Pandas</div>
+                <div className="what-tags">NumPy</div>
+                <div className="what-tags">Scikit-learn</div>
+                <div className="what-tags">ETL</div>
+                <div className="what-tags">APIs</div>
+                <div className="what-tags">Analytics</div>
+                <div className="what-tags">Automation</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -137,25 +136,28 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>CLOUD & DATA ENGINEER</h3>
+              <h3>BACKEND & CLOUD</h3>
               <p>
-                I work on cloud-native systems and large-scale data workflows
-                using AWS, containerized services, and data processing tools. My
-                background includes building ETL pipelines, supporting analytics
-                driven platforms, and delivering scalable infrastructure for
-                secure, high-availability applications.
+                I design backend and cloud infrastructure for secure,
+                high-availability applications. My background includes
+                microservices, event-driven systems, distributed data pipelines,
+                and AWS-based deployments that support reliable, scalable
+                product delivery.
               </p>
+              <h5>Skillset & tools</h5>
               <div className="what-content-flex">
+                <div className="what-tags">Go</div>
+                <div className="what-tags">Node.js</div>
+                <div className="what-tags">Django</div>
+                <div className="what-tags">Flask</div>
                 <div className="what-tags">AWS</div>
                 <div className="what-tags">Docker</div>
                 <div className="what-tags">ECS</div>
                 <div className="what-tags">Lambda</div>
-                <div className="what-tags">PySpark</div>
-                <div className="what-tags">Pandas</div>
-                <div className="what-tags">NumPy</div>
-                <div className="what-tags">ETL</div>
-                <div className="what-tags">MongoDB</div>
+                <div className="what-tags">REST APIs</div>
+                <div className="what-tags">PostgreSQL</div>
                 <div className="what-tags">Cassandra</div>
+                <div className="what-tags">CI/CD</div>
               </div>
               <div className="what-arrow"></div>
             </div>
