@@ -13,63 +13,39 @@ const Career = () => {
             <div className="career-dot"></div>
           </div>
 
-          
-
-          
-
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Software Developer</h4>
-                <h5>UnitedHealth Group</h5>
+                <h4>AI Engineer</h4>
+                <h5>UnitedHealth Group - USA</h5>
               </div>
-              <h3>2025 - NOW</h3>
+              <h3>Aug 2025 - Present</h3>
             </div>
             <p>
-              Developing high-scale backend services in Golang and Python for
-              healthcare systems, building AWS-based microservices, optimizing
-              large-scale data pipelines, and delivering secure APIs that power
-              real-time analytics and operational workflows.
+              Architected and deployed LLM-powered healthcare support solutions,
+              hybrid RAG-based clinical retrieval systems, predictive risk
+              models, and distributed MLOps pipelines on AWS to improve
+              operational efficiency, real-time clinical insight delivery, and
+              production AI reliability at scale.
             </p>
           </div>
 
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Software Intern - Research Associate</h4>
-                <h5>Bronx Community College CUNY</h5>
+                <h4>Machine Learning Engineer</h4>
+                <h5>CitiusTech Inc - India</h5>
               </div>
-              <h3>2024</h3>
+              <h3>May 2021 - Jul 2023</h3>
             </div>
             <p>
-              Engineered Python-based ETL pipelines and backend processing
-              services for research workflows, improving data validation,
-              reporting accuracy, and reproducibility through containerized
-              preprocessing and analytics integration.
+              Built machine learning and clinical analytics platforms using
+              XGBoost, logistic regression, MLflow, AWS SageMaker, and
+              FHIR/HL7-based data pipelines, enabling scalable patient outcome
+              prediction, population health insights, real-time monitoring, and
+              cost-efficient production inference workflows.
             </p>
           </div>
-
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Software Developer</h4>
-                <h5>CitiusTech Inc</h5>
-              </div>
-              <h3>2021 - 2023</h3>
-            </div>
-            <p>
-              Built scalable backend services using Django, Flask, and Node.js,
-              developed REST and GraphQL APIs, and supported cloud-native
-              deployments on AWS with Docker, ECS, and CI/CD pipelines for
-              enterprise applications.
-            </p>
-          </div>
-
-
-
-
-
-
         </div>
       </div>
     </div>
